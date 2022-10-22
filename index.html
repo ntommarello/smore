@@ -61,7 +61,7 @@
       class="cover-image absolute object-cover w-full h-full opacity-0 duration-300" style="transform:scaleX(-1);">
 
     <div class="absolute ml-4 md:ml-20 mt-8 md:mt-36 max-w-xs md:max-w-xl" >
-      <h1 class="text-white text-3xl md:text-5xl font-bold leading-tight ">Share your best stories over a tipi campfire</h1>
+      <h1 class="text-white text-3xl md:text-5xl font-bold leading-tight md:leading-snug">Share your best stories over a tipi campfire</h1>
       <h2 class="text-white font-light text-xl md:text-3xl mt-4 leading-snug ">
         S'mores, scotch, & new friends<br>
         The Mission, San Francisco<Br>
@@ -85,7 +85,7 @@
         class="underline decoration-1 underline-offset-4 hover:text-blue-700"  target="_blank" href="https://wefunder.com">Wefunder</A>.
       Back in the
       pre-covid times, we built a
-      tipi in our backyard to host our founder gatherings. It turned out it was a pretty epic place to talk about the
+      tipi to host our founder gatherings. It turned out it was a pretty epic place to talk about the
       things that <i>really</i> matter. Now, we want to spread the magic to more people!</p>
 
     <p class="md:text-xl mt-6">We try to avoid talking about work (except how it relates to our passions). Instead, we dive
@@ -97,7 +97,7 @@
     <p class="md:text-xl mt-6">Every Saturday, we invite a dozen aspiring s'more-makers that we think should meet. We
       curate people
       who are
-      amazing in some way. We see our role as matchmakers for great conversation. We hope you'll leave with a couple of
+      amazing in some way. We hope you'll leave with a couple of
       new friends! </p>
 
   </div>
@@ -210,7 +210,8 @@
 
 
 
-
+ <img src="https://wefunder-production.s3.amazonaws.com/xx/save-new.jpg"
+      class="preload hidden">
 
 
 
@@ -221,7 +222,7 @@
 <script>
 
 
-  $(window).on('load', function () {
+  $(".preload").on('load', function () {
     $(".cover-image").css("opacity", .9);
   });
 
